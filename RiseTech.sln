@@ -7,22 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E38661AF-5B7D-40A4-8446-5BE5F7347489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseTech.Contact", "RiseTech.Contact\RiseTech.Contact.csproj", "{C97B175E-0D67-4321-8739-F59AEC577E9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiseTech.Contact", "RiseTech.Contact\RiseTech.Contact.csproj", "{C97B175E-0D67-4321-8739-F59AEC577E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseTech.Report", "RiseTech.Report\RiseTech.Report.csproj", "{7A6C477E-806E-4611-9470-7D4DDDE345DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiseTech.Report", "RiseTech.Report\RiseTech.Report.csproj", "{7A6C477E-806E-4611-9470-7D4DDDE345DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseTech.Core", "RiseTech.Core\RiseTech.Core.csproj", "{4D7E2FC3-2114-417F-9CEA-57D1E558F151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiseTech.Core", "RiseTech.Core\RiseTech.Core.csproj", "{4D7E2FC3-2114-417F-9CEA-57D1E558F151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseTech.Data", "RiseTech.Data\RiseTech.Data.csproj", "{054E9128-ED1D-4E51-88B6-67FEBA373086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiseTech.Data", "RiseTech.Data\RiseTech.Data.csproj", "{054E9128-ED1D-4E51-88B6-67FEBA373086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseTech.Service", "RiseTech.Service\RiseTech.Service.csproj", "{F89EEEBF-0EE1-4F45-910D-2D73D98634ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiseTech.Service", "RiseTech.Service\RiseTech.Service.csproj", "{F89EEEBF-0EE1-4F45-910D-2D73D98634ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiseTech.GatewayApi", "RiseTech.GatewayApi\RiseTech.GatewayApi.csproj", "{714B2272-26DB-42B9-9617-A36EBE5DD685}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{674819AF-ED98-4489-AF9E-548E8D778C64}"
-	ProjectSection(SolutionItems) = preProject
-		ocelot.json = ocelot.json
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiseTech.GatewayApi", "RiseTech.GatewayApi\RiseTech.GatewayApi.csproj", "{714B2272-26DB-42B9-9617-A36EBE5DD685}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
