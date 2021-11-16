@@ -7,6 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using RiseTech.Contact.Data;
+using RiseTech.Contact.Data.Interfaces;
 using RiseTech.Contact.Repositories;
 using RiseTech.Contact.Repositories.Interfaces;
 
@@ -24,6 +26,8 @@ namespace RiseTech.Contact
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IContactContext, ContactContext>();
+
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped<IPersonInformationRepository, PersonInformationRepository>();
 
