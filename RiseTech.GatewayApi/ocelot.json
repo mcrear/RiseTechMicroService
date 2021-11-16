@@ -1,6 +1,29 @@
 {
-  "Routes": [],
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/contact",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/contact-service/contact"
+    },
+    {
+      "DownstreamPathTemplate": "/api/report",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ],
+      "UpstreamPathTemplate": "/report-service/report"
+    }
+  ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5005"
+    "BaseUrl": "http://localhost:7000"
   }
 }
