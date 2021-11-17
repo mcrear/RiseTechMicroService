@@ -8,7 +8,7 @@ namespace RiseTech.BasicWeb.Services.Interfaces
 {
     public interface IContactService
     {
-        Task<IEnumerable<PersonModel>> GetCatalog();
+        Task<IEnumerable<PersonModel>> GetPersons();
         Task<IEnumerable<PersonModel>> GetPersonByCompany(string company);
         Task<IEnumerable<PersonModel>> GetPersonByFirstName(string firstName);
         Task<IEnumerable<PersonModel>> GetPersonByLastName(string lastName);
